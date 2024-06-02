@@ -1,6 +1,7 @@
 import pygame
 from util import *
 
+#clase para los bloques de los mapas
 class Bloque(pygame.sprite.Sprite):
     def __init__(self, pos, width, height, imagen) :
         super().__init__()
